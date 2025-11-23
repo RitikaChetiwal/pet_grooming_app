@@ -1,0 +1,31 @@
+{
+  "name": "pet_management_server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Ritika",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "dev",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "express-validator": "^7.2.1",
+    "isomorphic-dompurify": "^2.26.0",
+    "jsdom": "^26.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1",
+    "multer": "^2.0.2",
+    "puppeteer": "^24.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
